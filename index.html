@@ -1,14 +1,21 @@
 <!DOCTYPE html>
-<html>
+<html ng-app="ReedPortfolio">
 <head>
 <meta name="viewport" content="width=device-width,user-scalable=no">
 <title>Panarican Productions</title>
 <link href='http://fonts.googleapis.com/css?family=Lato:400,700|Kaushan+Script|Montserrat' rel='stylesheet' type='text/css'>
 <link rel="stylesheet" type="text/css" href="css/styles.css">
 <script type="text/javascript" src="js/modernizr.js"></script>
+<script src="js/angular.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+<script type="text/javascript" src="js/bootstrap.js"></script>
+<script type="text/javascript" src="js/instafeed.min.js"></script>
+<script type="text/javascript" src="app/app.js"></script>
+<script src="//ajax.googleapis.com/ajax/libs/angularjs/1.2.16/angular-route.min.js"></script>
 
 </head>
 <body>
+	<ng-view></ng-view>
 	<header>
 		<img src="images/pr-island.jpg" alt="flag">
 		<div class="name fancy-font">
@@ -23,6 +30,12 @@
 		<div class="social">
 			<a class="facebook" href="#">Facebook</a>
 			<a class="instagram" href="">Instagram</a>
+		</div>
+
+		<div class="links">
+			<a ng-href="#/about">About</a>
+			<a ng-href="#/photos">Photos</a>
+			<a ng-href="#/videos">Videos</a>
 		</div>
 
 	</header>
@@ -69,10 +82,7 @@
 	</footer>
 
 	<section class="footer-bottom">
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
-		<script type="text/javascript" src="js/bootstrap.js"></script>
-		<script type="text/javascript" src="js/instafeed.min.js"></script>
-		<script type="text/javascript" src="js/app.js"></script>
+	
 
 
 

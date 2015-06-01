@@ -141,6 +141,27 @@ img {
 
 }
 
+a {
+	color: $white;
+	margin-right: 20px;
+
+&:hover {
+	color: $white;
+}
+
+}
+
+.links {
+	font-size: 32px;
+	position: relative;
+	text-align: center;
+	top: 350px;
+	margin: 20px;
+	padding: 10 $padding*3;
+
+
+}
+
 h1, h2 {
 	width: 100%;
 	color: $white;

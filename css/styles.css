@@ -5658,6 +5658,20 @@ header {
     .titles {
       bottom: 50%; } }
 
+a {
+  color: #FFF;
+  margin-right: 20px; }
+  a:hover {
+    color: #FFF; }
+
+.links {
+  font-size: 32px;
+  position: relative;
+  text-align: center;
+  top: 350px;
+  margin: 20px;
+  padding: 10 30px; }
+
 h1, h2 {
   width: 100%;
   color: #FFF;
